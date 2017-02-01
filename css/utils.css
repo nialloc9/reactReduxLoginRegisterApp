@@ -1,0 +1,11 @@
+.infoDefault{
+    color: #3C3E50;
+}
+
+.infoSuccess{
+    color: green;
+}
+
+.infoFailure{
+    color: red;
+}

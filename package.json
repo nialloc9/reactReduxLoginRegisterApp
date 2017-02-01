@@ -1,0 +1,47 @@
+{
+  "name": "igoaloreactredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"./node_modules/.bin/webpack-dev-server --content-base --inline --hot\" \"webpack --watch\""
+  },
+  "author": "Niall O Connor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "history": "^4.5.0",
+    "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7",
+    "react-cookie": "^1.0.4",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.0",
+    "react-router-bootstrap": "^0.23.1",
+    "redux": "^3.6.0",
+    "redux-form": "^6.4.3",
+    "redux-logger": "^2.7.4",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.1.0",
+    "shortid": "2.2.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dynamic-import-webpack": "^1.0.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "concurrently": "^3.1.0",
+    "live-server": "1.1.0",
+    "webpack": "1.13.2",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.14.0"
+  }
+}
